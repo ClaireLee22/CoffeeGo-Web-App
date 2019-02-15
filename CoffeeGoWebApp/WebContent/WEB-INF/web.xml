@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	
+	
+	<servlet>
+		<servlet-name>CusLoginController</servlet-name>
+		<servlet-class>Controller.CusLoginController</servlet-class>
+	</servlet>
+	<description></description>
+	<servlet-mapping>
+		<servlet-name>CusLoginController</servlet-name>
+		<url-pattern>/CusLoginController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminLoginController</servlet-name>
+		<servlet-class>Controller.AdminLoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLoginController</servlet-name>
+		<url-pattern>/AdminLoginController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CusResetPwdController</servlet-name>
+		<servlet-class>Controller.CusResetPwdController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CusResetPwdController</servlet-name>
+		<url-pattern>/CusResetPwdController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminResetPwdController</servlet-name>
+		<servlet-class>Controller.AdminResetPwdController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminResetPwdController</servlet-name>
+		<url-pattern>/AdminResetPwdController</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>RegistrationController</servlet-name>
+		<servlet-class>Controller.RegistrationController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrationController</servlet-name>
+		<url-pattern>/RegistrationController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddToCartController</servlet-name>
+		<servlet-class>Controller.AddToCartController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddToCartController</servlet-name>
+		<url-pattern>/AddToCartController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RemoveItemController</servlet-name>
+		<servlet-class>Controller.RemoveItemController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveItemController</servlet-name>
+		<url-pattern>/RemoveItemController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangeOrderQuantityController</servlet-name>
+		<servlet-class>Controller.ChangeOrderQuantityController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeOrderQuantityController</servlet-name>
+		<url-pattern>/ChangeOrderQuantityController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CheckOutController</servlet-name>
+		<servlet-class>Controller.CheckOutController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckOutController</servlet-name>
+		<url-pattern>/CheckOutController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminAddNewProductController</servlet-name>
+		<servlet-class>Controller.AdminAddNewProductController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminAddNewProductController</servlet-name>
+		<url-pattern>/AdminAddNewProductController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminDeleteProductController</servlet-name>
+		<servlet-class>Controller.AdminDeleteProductController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminDeleteProductController</servlet-name>
+		<url-pattern>/AdminDeleteProductController</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>AdminEditProductController</servlet-name>
+		<servlet-class>Controller.AdminEditProductController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminEditProductController</servlet-name>
+		<url-pattern>/AdminEditProductController</url-pattern>
+	</servlet-mapping>
+    
+    
+    <servlet>
+		<servlet-name>EditMyAccountController</servlet-name>
+		<servlet-class>Controller.EditMyAccountController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditMyAccountController</servlet-name>
+		<url-pattern>/EditMyAccountController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminDeleteCustomerController</servlet-name>
+		<servlet-class>Controller.AdminDeleteCustomerController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminDeleteCustomerController</servlet-name>
+		<url-pattern>/AdminDeleteCustomerController</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

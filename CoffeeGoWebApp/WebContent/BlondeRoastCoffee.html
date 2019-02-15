@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoffeeGO Online Store</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+  <body>
+    <!-- navbar-->
+    <nav class="navbar navbar-inverse navbar-light navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="home.html">CoffeeGo Web Store</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="home.html">Home</a></li>
+            <li id="shop"><a href="shop_catalog.html">Shop</a></li>
+            <li><a href="Contact_page.html">Contact</a></li>
+            <li><a href="LogInMode.html">LogIn</a></li>
+            <li><a href="SignUp.html">SignUp</a></li>
+            <li><a href="DisplayShoppingCart.jsp">Shopping Cart</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar-->
+
+    <!-- Main content-->
+    <div class="product">
+    	<div class = "row">
+    	
+	  		<div class="col-md-4">
+	        	<img class="icon_image" src="Image/Blonde_Roast.png" alt="Blonde Roast">
+	  	  	</div>
+   	  		<div class="col-md-8">
+	   			<h3>BLONDE ROAST</h3>
+				<div>
+				    <span>User Rating</span>
+					<span class="star-rating-checked">★</span>
+					<span class="star-rating-checked">★</span>
+					<span class="star-rating-checked">★</span>
+					<span class="star-rating-checked">★</span>
+					<span class="star-rating-checked">★</span>
+				</div>
+				<form action="AddToCartController" method="post">
+					<p class="productDescription">
+					    To create our House Blend we combine natural and washed Central and South American coffees.
+					 	We choose our blends for brightness, flavor, and aromas that make for a smooth, 
+					 	satisfying cup of coffee that can be enjoyed all day long. 
+					</p>
+					<p> Bag Size: 12oz</p>
+					<p> Preparation: Whole Bean</p>
+					<p> Price: $10.00 </p>
+					<hr style="border:3px solid #f1f1f1">
+					<input type="number" name="orderQuantity" value = "1" min= "1" style="width:50px">
+					<input type="hidden" name="productCode" value="BR0001">
+					<input type="submit" class="btn" value="Add to Shopping Cart">	
+				</form>
+
+	   			<div class="row">
+				  <div class="side">
+				    <div>5 star</div>
+				  </div>
+				  <div class="middle">
+				    <div class="bar-container">
+				      <div class="bar-5" style = "width:100%"></div>
+				    </div>
+				  </div>
+				  <div class="side right">
+				    <div>5</div>
+				  </div>
+				  <div class="side">
+				    <div>4 star</div>
+				  </div>
+				  <div class="middle">
+				    <div class="bar-container">
+				      <div class="bar-4" style = "width:0%"></div>
+				    </div>
+				  </div>
+				  <div class="side right">
+				    <div>0</div>
+				  </div>
+				  <div class="side">
+				    <div>3 star</div>
+				  </div>
+				  <div class="middle">
+				    <div class="bar-container">
+				      <div class="bar-3" style = "width:0%"></div>
+				    </div>
+			      </div>			
+				  <div class="side right">
+				    <div>0</div>
+				  </div>
+				  <div class="side">
+				    <div>2 star</div>
+				  </div>
+				  <div class="middle">
+				    <div class="bar-container">
+				      <div class="bar-2" style = "width:0%"></div>
+				    </div>
+				  </div>
+				  <div class="side right">
+				    <div>0</div>
+				  </div>
+				  <div class="side">
+				    <div>1 star</div>
+				  </div>
+				  <div class="middle">
+				    <div class="bar-container">
+				      <div class="bar-1" style = "width:0%"></div>
+				    </div>
+				  </div>
+				  <div class="side right">
+				    <div>0</div>
+				  </div>		
+		   	  	</div>
+		   	  	
+		   	  	<div class = "review">
+					<div class="detailReview">
+					    <span >User Rating</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<p class="reviewTitle">I will definitely buy your Blend Roast coffee again!</p>
+						<p> Consistent and natural coffee taste. I blend the beans with either Italian or Expresso regular whole beans,
+					    grind and then brew in my reusable Kcups. I add a bit of sugar and half and half and always get a great full
+					    flavor coffee with half the caffeine of regular coffee.
+						</p>
+						<p> By Dean</p>
+					</div>
+				</div>
+				<div class = "review">
+					<div class="detailReview">
+					    <span >User Rating</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<p class="reviewTitle">LOVE IT - our only choice!</p>
+						<p> Love the price and the taste!</p>
+						<p> By Claire</p>
+					</div>
+				</div>
+				<div class = "review">
+					<div class="detailReview">
+					    <span >User Rating</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<p class="reviewTitle">Best tasting coffee ever!</p>
+						<p> I love this coffee, it is strong, it is bold, I wish I could buy year all year around.</p>
+						<p> By Sandy</p>
+					</div>
+				</div>
+				<div class = "review">
+					<div class="detailReview">
+					    <span >User Rating</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<p class="reviewTitle">Perfect coffee bean!</p>
+						<p> I love this coffee, it is strong, it is bold, I wish I could buy year all year around.House Blend makes really great espresso. 
+						I used to use mainly Garuda for lattes but House is just as good or better for this for my taste, although a tad lighter. 
+						Also less $. Probably my best ever lattes have been with House blend using a CoffeeCo Blonde Roast coffee.</p>
+						<p> By Chris</p>
+					</div>
+				</div>
+		   	  	<div class = "review">
+					<div class="detailReview">
+					    <span >User Rating</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<span class="star-rating-checked">★</span>
+						<p class="reviewTitle">High quality coffee bean!</p>
+						<p>Create the feeling of fullness in the mouth</p>
+						<p> By William</p>
+					</div>
+				</div> 	
+			</div>
+        </div>
+    </div>
+    <!-- End of Main content-->
+   
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <footer>​© 2018 by CoffeeGo</footer>
+  </body>
+</html>

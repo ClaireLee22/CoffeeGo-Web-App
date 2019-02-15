@@ -1,0 +1,249 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Navbar*/
+.navbar {
+  font-weight: bolder;
+	margin-bottom: 0;
+}
+
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: #27A967;
+}
+
+#contact,
+#shop,
+#logIn,
+#signUp,
+#cart,
+#CusAccount,
+#EditProductt,
+#AddProduct,
+#DeleteProduct {
+    background-color: #27A967;
+}
+
+body {
+	background: white;
+	color: #f7f7f7;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: bold;
+}
+
+p {
+	font-size: 20px;
+	color: #27A967;
+}
+
+.jumbotron {
+	background: #27A967;
+	color: white;
+	text-align: center;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+	margin-bottom: 5px;
+}
+
+.btn-primary:hover {
+	color: #27A967;
+	background-color: white;
+	border-color: white;
+}
+
+.row {
+  text-align: center;
+  color: black;
+}
+
+.icon_image {
+    width: 100%;
+    display: block; /*change img to block element*/
+    margin: auto;
+    padding: 10px;
+}
+
+/*FOOTER*/
+footer {
+    text-align: right;
+    padding: 20px;
+    font-weight: bolder;
+    background-color: #2E2F31;
+}
+
+/*Contact Page*/
+.contact_us {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+/*LogIn Page*/
+/*SignUp Page*/
+/*RestPwd Page*/
+.LogIn_form,
+.SignUp_form,
+.ResetPwd_form,
+.Product_form {
+  color: black;
+  margin: 100px 500px 100px 500px;
+}
+
+.btn {
+  background-color: #27A967;
+  padding: 10px 18px;
+  font-weight: bolder;
+
+}
+
+.resetbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  margin: 50px;
+  font-weight: bolder;
+}
+
+.logInMode-col {
+  padding: 20px 20px;
+  margin: 50px 200px;
+  background-color: #27A967;
+  text-align: center;
+}
+
+.logInMode-col a{
+  color: white;
+}
+
+/*ShoppingCart Page*/
+.shppingCart {
+  color: black;
+  text-align: center;
+}
+
+/*Products Page*/
+.star-rating-checked {
+	color: orange;
+}
+
+.star-rating-unchecked {
+	color: black;
+}
+
+ .product p {
+    color: black;
+    font-size: 14px;
+ }
+
+.productDescription {
+  color: #2E2F31;
+  font-size: 16px;
+  padding: 30px;
+  text-align: left;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {height: 18px; background-color: #4CAF50;}
+.bar-4 {height: 18px; background-color: #2196F3;}
+.bar-3 {height: 18px; background-color: #00bcd4;}
+.bar-2 {height: 18px; background-color: #ff9800;}
+.bar-1 {height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+}
+
+/* revives */
+.detailReview{
+	font-size: 16px;
+	color: 808080;
+	text-align: left;
+	padding: 10px;
+	margin: 20px;
+
+}
+
+.reviewTitle {
+	font-weight: bold;
+}
+
+
+/* ShoppingCart page */
+.colname {
+	color:black;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/* Checkout page */
+.payment,
+.billing {
+	 width: 90%;
+	 margin: auto;
+	 background-color: #f2f2f2;
+	 padding: 40px 10px 40px 10px;
+	 border: 1px solid lightgrey;
+	 border-radius: 3px;
+}
