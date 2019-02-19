@@ -35,7 +35,10 @@ Project X [UCSC Silicon Valley Extension: Object-Oriented Analysis and Design]
 
 ## Getting Started
 ### Prerequisites
-- [Apache Tomcat](http://tomcat.apache.org/)
+- [Apache Tomcat v9.0](http://tomcat.apache.org/)
 - [Eclipse](https://www.eclipse.org/downloads/)
+
+## Install  
+[Apache Tomcat Server in Eclipse IDE](https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/)
 
 ### Run
