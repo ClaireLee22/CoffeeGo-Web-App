@@ -22,16 +22,16 @@ Project X [UCSC Silicon Valley Extension: Object-Oriented Analysis and Design]
           
 - Interaction/sequence diagrams
 
-<img src='Sequence_Diagram_Customer.png>
-<img src='Sequence_Diagram_Admin.png>
+<img src='Sequence_Diagram_Customer.png'>
+<img src='Sequence_Diagram_Admin.png'>
 
 - UML class diagram
 
-<img src='UML_Diagram.png>
+<img src='UML_Diagram.png'>
           
 - Architecture diagram
 
-<img src='architecture_diagram.png>
+<img src='architecture_diagram.png'>
 
 ## Getting Started
 ### Prerequisites
