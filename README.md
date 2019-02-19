@@ -37,11 +37,21 @@ Project X [UCSC Silicon Valley Extension: Object-Oriented Analysis and Design]
 ### Prerequisites
 - [Apache Tomcat v9.0](http://tomcat.apache.org/)
 - [Eclipse](https://www.eclipse.org/downloads/)
+- [MAMP](https://www.mamp.info/en/)
 
 ## Install  
 [Apache Tomcat Server in Eclipse IDE](https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/)
 
 ### Run
+
+- Apache server
 ```bash
 localhost:8080/
 ```
+
+- MAMP
+```bash
+http://localhost:8888/MAMP/index.php?language=English
+TOOLS tab --> PHPMYADMIN
+```
+
