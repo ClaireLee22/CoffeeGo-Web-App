@@ -39,7 +39,7 @@ Project X [UCSC Silicon Valley Extension: Object-Oriented Analysis and Design]
 - [Eclipse](https://www.eclipse.org/downloads/)
 - [MAMP](https://www.mamp.info/en/)
 
-## Install  
+### Install  
 [Apache Tomcat Server in Eclipse IDE](https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/)
 
 ### Run
