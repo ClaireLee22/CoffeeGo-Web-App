@@ -55,3 +55,8 @@ http://localhost:8888/MAMP/index.php?language=English
 TOOLS tab --> PHPMYADMIN
 ```
 
+- CoffeCoWebApp
+  - import CoffeCoWebApp folder to Eclipse
+  - right click file `home.html` in `WEB-INF` folder
+  - Run As --> Run on Server --> Finish
+
