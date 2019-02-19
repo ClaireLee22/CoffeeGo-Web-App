@@ -35,5 +35,7 @@ Project X [UCSC Silicon Valley Extension: Object-Oriented Analysis and Design]
 
 ## Getting Started
 ### Prerequisites
+[Apache Tomcat](http://tomcat.apache.org/)
+[Eclipse](https://www.eclipse.org/downloads/)
 
 ### Run
