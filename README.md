@@ -56,7 +56,7 @@ TOOLS tab --> PHPMYADMIN
 ```
 
 - CoffeCoWebApp
-  - import CoffeCoWebApp folder to Eclipse
-  - right click file `home.html` in `WEB-INF` folder
+  - Import CoffeCoWebApp folder to Eclipse
+  - Right click file `home.html` in `WEB-INF` folder
   - Run As --> Run on Server --> Finish
 
