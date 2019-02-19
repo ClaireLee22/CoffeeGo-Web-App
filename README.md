@@ -17,16 +17,20 @@ Project X [UCSC Silicon Valley Extension: Object-Oriented Analysis and Design]
 
 ### Project Results
 - Use case diagram
+
 <img src='Use_Case_Diagram.png>
           
 - Interaction/sequence diagrams
+
 <img src='Sequence_Diagram_Customer.png>
 <img src='Sequence_Diagram_Admin.png>
 
 - UML class diagram
+
 <img src='UML_Diagram.png>
           
 - Architecture diagram
+
 <img src='architecture_diagram.png>
 
 ## Getting Started
